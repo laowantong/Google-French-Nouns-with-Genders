@@ -1,4 +1,4 @@
-# A list of french nouns constructed from Google N-Grams
+# A list of French nouns constructed from Google N-Grams
 
 In 2012, Google has published the 2nd version of [a gigantic dataset](http://storage.googleapis.com/books/ngrams/books/datasetsv2.html) of 1-grams, 2-grams, 3-grams, 4-grams, and 5-grams files for several languages, including French.
 
