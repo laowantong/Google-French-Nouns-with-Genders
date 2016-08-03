@@ -1,10 +1,5 @@
-
-# coding: utf-8
-
-# In[1]:
-
 #!/usr/bin/env python
-
+# coding: utf-8
 
 import pandas as pd
 import numpy as np
@@ -28,8 +23,6 @@ NAME_TEMPLATE = "googlebooks-fre-all-2gram-20120701-%s.gz"
 # (Pandas issue: https://github.com/pydata/pandas/issues/5291)
 CHUNK_SIZE = 99999
 
-
-# In[2]:
 
 def log_progress(sequence, every=None, size=None):
     """Widget based progress bar for Jupyter (IPython Notebook)
@@ -87,8 +80,6 @@ def log_progress(sequence, every=None, size=None):
         label.value = str(index or '?')
 
 
-# In[3]:
-
 # If no HTML logger is available, uncomment the following lines
 
 # def log_progress(sequence, every, size):
@@ -98,8 +89,6 @@ def log_progress(sequence, every=None, size=None):
 #             print "%s/%s" % (i, size)
 #         yield element
 
-
-# In[4]:
 
 # Description of the Google Ngrams datasets
 
@@ -145,8 +134,6 @@ dtype = OrderedDict([
     ("volume_count", np.int32),
 ])
 
-
-# In[5]:
 
 # Main program
 
